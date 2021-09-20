@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+    
+}
+
+body {
+    background-color: rgb(17, 0, 0);
+}
+
+header {
+    background: #081436;
+    padding: 10px;
+}
+
+header > h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: cornsilk;
+}
+
+.intro {
+    text-align: center;
+    margin: 20px auto;
+    color: white;
+}
+
+.intro > p {
+    display: block;
+}
+
+.form {
+    margin: 10px auto;
+    border: 3px dashed white;
+    border-radius: 6px;
+    text-align: center;
+    width: 60%;
+    padding: 15px 20px;
+}
+
+
+.form > div > p {
+    display: inline-block;
+    padding: 5px;
+}
+
+.ask {
+    color: darkorange;
+    border: 1px dashed rgb(49, 5, 5);
+    padding: 5px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.question {
+    display: block;
+    color: white;
+    border: 1px dashed rgb(49, 5, 5);
+    padding: 5px;
+}
+
+.text {
+    display: none;
+    border: 1px dashed rgb(49, 5, 5);
+    padding: 5px;
+    color: white;
+}
+
+.button {
+    margin: 20px auto;
+}
+
+#button {
+    font-size: 1.2rem;
+    color: white;
+    font-weight: bold;
+    display: block;
+    border: 1px solid white;
+    background-color: #1a3c97;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin: auto;
+  }
+
+#result {
+    color: white;
+}
+
+h2 {
+    padding: 10px;
+}
+
+#compute {
+    margin: 20px auto;
+}
+
+#again {
+    margin: 20px auto;
+    display: none;
+}
+
+footer {
+    background-color: #081436;
+    width: 100%;
+    text-align: right;
+    padding: 10px;
+    font-size: 90%;
+}
+
+footer > p {
+    margin: 5px 60px;
+}
+
+footer > p > a {
+    color: white;
+}

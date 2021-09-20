@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>detetive</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>detetive</h1>
+    </header>
+
+    <div class="intro" id="result">
+        <p>Olá. Sou detetive de polícia e estou aqui para fazer algumas perguntas...</p>
+        <p>Por favor, responda honestamente e, quando estiver pronto(a), clique para saber a que conclusão eu cheguei.</p>
+    </div>
+
+    <form class="form">
+
+        <div class="ask">
+            <p>1. Você telefonou para a vítima?</p>
+        </div>
+        <div class="question" id="q1">
+            <p>
+                Sim <input type="radio" id="question1" name="question1">
+            </p>
+            <p>
+                Não <input type="radio" id="question1" name="question1">
+            </p>
+        </div>
+        <div class="text" id="text1"></div>
+
+        <div class="ask">
+            <p>2. Você esteve no local do crime?</p>
+        </div>
+        <div class="question" id="q2">
+            <p>
+                Sim <input type="radio" id="question2" name="question2">
+            </p>
+            <p>
+                Não <input type="radio" id="question2" name="question2">
+            </p>
+        </div>
+        <div class="text" id="text2"></div>
+
+        <div class="ask">
+           <p>3. Você mora perto da vítima?</p>
+        </div>
+        <div class="question" id="q3">
+            <p>
+                Sim <input type="radio" id="question3" name="question3">
+            </p>
+            <p>
+                Não <input type="radio" id="question3" name="question3">
+            </p>
+        </div>
+        <div class="text" id="text3"></div>
+
+        <div class="ask">
+            <p>4. Você devia dinheiro para a vítima?</p>
+        </div>
+        <div class="question" id="q4">
+            <p>
+                Sim <input type="radio" id="question4" name="question4">
+            </p>
+            <p>
+                Não <input type="radio" id="question4" name="question4">
+            </p>
+        </div>
+        <div class="text" id="text4"></div>
+
+        <div class="ask">
+            <p>5. Você já trabalhou com a vítima?</p>
+        </div>
+            <div class="question" id="q5">
+            <p>
+                Sim <input type="radio" id="question5" name="question5">
+            </p>
+            <p>
+                Não <input type="radio" id="question5" name="question5">
+            </p>
+        </div>
+        <div class="text" id="text5"></div>
+
+        </form>
+    
+        <div id="compute">
+            <input type="button" id="button" onclick="getAnswer()" value="resultado">  
+        </div>
+
+        <div id="again">
+            <input type="button" id="button" onclick="window.location.reload()" value="jogar novamente">  
+        </div>
+
+        <footer>
+            <p><a href="https://github.com/ivancoruja/detetive">código-fonte</a></p>
+        </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
